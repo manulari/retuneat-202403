@@ -1,0 +1,212 @@
+/* global */
+html{height: 100%;}
+
+body
+{ font-family: verdana, arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .66em;
+  color: #404040;
+}
+
+/* ancors Start
+---------------------*/
+a{outline: none;}
+
+a, a:link, a:visited {
+color:#006699;
+text-decoration:underline;
+}
+a:hover {
+text-decoration:underline;
+}
+
+#logo, #logo h1 a
+{
+  color: #ffffff;
+  border:none;
+  text-decoration:none;
+  font-weight:normal;
+  margin-bottom:30px;
+  font-size: 1.8em;
+  }
+
+img
+{display: block;
+  margin: 0px;
+  }
+p
+{ line-height: 1.7em;
+}
+
+h1
+{ font-family: verdana, arial, sans-serif;
+  letter-spacing: .1em;
+  font-weight: normal;
+  font-size: 150%;
+}
+
+.sub
+{ font-size: 55%;
+  padding-left: 12px; 
+  letter-spacing: .1em;
+}
+
+
+/* block quote */
+blockquote
+{ margin: 20px 0px 20px 0px; 
+  padding: 10px 20px 0px 20px;
+  }
+
+/* unordered list */
+ul
+{ margin: 2px 0px 18px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 6px 0px; 
+  padding: 0px;
+}
+
+/* ordered list */
+ol
+{ margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li
+{ margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+
+
+/* elementh style  end
+--------------------------*/
+
+/* site content Start 
+-----------------------------*/
+#main
+{
+	width:870px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+/*design box Second*/
+.disignBoxSecond 
+{
+	background:transparent;
+}
+
+.disignBoxSecond .boxSecondHeader,
+.disignBoxSecond .csc-header {
+	margin:0px 0px 0px 5px;
+	text-align:left;
+	text-transform:uppercase;
+}
+
+.disignBoxSecond .csc-textpic-imagewrap
+{
+  padding:0px 15px 10px 0px;
+  }
+
+
+.disignBoxSecond .boxContent,
+.disignBoxSecond {
+	font-size:12px;
+	margin:0px 20pt 20px 20px;
+}
+
+/* thumb images
+-----------------------------*/
+
+.thumb_block
+{/*position:relative;*/ height:100px;}
+.thumb_image
+{
+float:left;
+margin:0pt 5px 5px 5px;
+width:70px;
+}
+
+
+/* margin lefts / margin rights - to centre content */
+#logo, #menu, #site_content, #main
+{ margin-left: auto; 
+  margin-right: auto;
+}
+
+
+#links
+{ margin: 15px 9px 0px 0px;
+  font-size: 80%;
+  text-align: right;
+  padding: 20px 10px 0px 0px;
+  text-transform: uppercase;
+}
+
+
+
+/* main content */
+#site_content
+{ width: 868px;
+  overflow: hidden;
+   clear: left;
+} 
+
+
+/* page content */
+#content
+{ text-align: left;
+  width: 868px;
+  float: left;
+ 
+}
+
+
+
+#footer
+{ font-size:11px;
+margin-top:6px;
+
+}
+
+#footer a
+{ color:#ffffff;
+text-decoration:none;
+}
+#footer a:hover {
+color:#006699;
+text-decoration:underline;
+}
+
+
+
+/*colors Start
+---------------------------*/
+
+body
+{   background:#67abb1;
+}
+
+
+#content h1
+{ background: transparent;
+  color: #40403E;
+  }
+
+#contact input, #contact textarea, #contact input.submit
+{ background: #2C2C2A; 
+  color: #929280;
+  }
+
+
+.csc-sword {
+color: #000000;
+background-color:#c5e6ee;
+}
+
